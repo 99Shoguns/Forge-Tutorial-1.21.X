@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tutorialmod:item/nordic_axe"
+    "layer0": "tutorialmod:item/mithril_ingot"
   }
 }
