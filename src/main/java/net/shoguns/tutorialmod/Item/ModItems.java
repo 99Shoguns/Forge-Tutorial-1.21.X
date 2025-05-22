@@ -11,6 +11,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MOD_ID);
 
+    // Register all items here
     public static final RegistryObject<Item> RAW_MITHRIL = ITEMS.register("raw_mithril",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MITHRIL_INGOT = ITEMS.register("mithril_ingot",
