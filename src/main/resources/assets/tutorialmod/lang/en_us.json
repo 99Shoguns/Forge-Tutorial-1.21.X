@@ -3,5 +3,8 @@
   "item.tutorialmod.mithril_ingot": "Mithril Ingot",
 
   "block.tutorialmod.mithril_block": "Block of Mithril",
-  "block.tutorialmod.raw_mithril_block": "Block of Raw Mithril"
+  "block.tutorialmod.raw_mithril_block": "Block of Raw Mithril",
+
+  "creativetab.tutorialmod.mithril_items": "Mithril Items",
+  "creativetab.tutorialmod.mithril_blocks": "Mithril Blocks"
 }
