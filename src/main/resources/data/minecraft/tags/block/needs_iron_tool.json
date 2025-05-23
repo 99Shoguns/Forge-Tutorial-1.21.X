@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:mithril_block",
+    "tutorialmod:raw_mithril_block",
+    "tutorialmod:mithril_ore"
+  ]
+}

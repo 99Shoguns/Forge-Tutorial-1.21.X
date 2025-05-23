@@ -4,6 +4,8 @@
 
   "block.tutorialmod.mithril_block": "Block of Mithril",
   "block.tutorialmod.raw_mithril_block": "Block of Raw Mithril",
+  "block.tutorialmod.mithril_ore": "Mithril Ore",
+  "block.tutorialmod.deepslate_mithril_ore": "Deepslate Mithril Ore",
 
   "creativetab.tutorialmod.mithril_items": "Mithril Items",
   "creativetab.tutorialmod.mithril_blocks": "Mithril Blocks"

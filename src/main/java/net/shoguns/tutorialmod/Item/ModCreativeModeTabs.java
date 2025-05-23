@@ -29,6 +29,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.MITHRIL_BLOCK.get());
                         output.accept(ModBlocks.RAW_MITHRIL_BLOCK.get());
+                        output.accept(ModBlocks.MITHRIL_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_MITHRIL_ORE.get());
                     }).build());
 
 
