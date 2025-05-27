@@ -1,7 +1,6 @@
 package net.shoguns.tutorialmod;
 
 import com.mojang.logging.LogUtils;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
