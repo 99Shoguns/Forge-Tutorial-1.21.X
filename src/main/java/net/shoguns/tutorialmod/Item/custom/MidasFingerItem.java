@@ -19,9 +19,10 @@ public class MidasFingerItem extends Item {
 
     private static final Map<Block, Block> MIDAS_MAP = new HashMap<Block, Block>()
     {{
-        // Does not work with restone ore variants due to overridden useItemOn() method in those blocks
+        // Does not work with redstone ore variants due to redstone ore's useItemOn override. Doesn't even reach this useOn method.
         put(Blocks.COAL_ORE, Blocks.GOLD_ORE);
         put(Blocks.IRON_ORE, Blocks.GOLD_ORE);
+        put(Blocks.REDSTONE_ORE, Blocks.GOLD_ORE); // FIXME
         put(Blocks.COPPER_ORE, Blocks.GOLD_ORE);
         put(Blocks.LAPIS_ORE, Blocks.GOLD_ORE);
         put(Blocks.EMERALD_ORE, Blocks.GOLD_ORE);
@@ -29,6 +30,7 @@ public class MidasFingerItem extends Item {
         put(ModBlocks.MITHRIL_ORE.get(), Blocks.GOLD_ORE);
         put(Blocks.DEEPSLATE_COAL_ORE, Blocks.DEEPSLATE_GOLD_ORE);
         put(Blocks.DEEPSLATE_IRON_ORE, Blocks.DEEPSLATE_GOLD_ORE);
+        put(Blocks.DEEPSLATE_REDSTONE_ORE, Blocks.DEEPSLATE_GOLD_ORE); // FIXME
         put(Blocks.DEEPSLATE_COPPER_ORE, Blocks.DEEPSLATE_GOLD_ORE);
         put(Blocks.DEEPSLATE_LAPIS_ORE, Blocks.DEEPSLATE_GOLD_ORE);
         put(Blocks.DEEPSLATE_EMERALD_ORE, Blocks.DEEPSLATE_GOLD_ORE);
