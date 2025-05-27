@@ -60,6 +60,10 @@ public class TutorialMod {
             event.accept(ModBlocks.MITHRIL_BLOCK);
             event.accept(ModBlocks.RAW_MITHRIL_BLOCK);
         }
+
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.MIDAS_FINGER);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

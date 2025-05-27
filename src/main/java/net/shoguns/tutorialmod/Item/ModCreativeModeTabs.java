@@ -20,6 +20,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.MITHRIL_INGOT.get());
                         output.accept(ModItems.RAW_MITHRIL.get());
+
+                        output.accept(ModItems.MIDAS_FINGER.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> MITHRIL_BLOCKS_TAB = CREATIVE_MODE_TABS.register("mithril_blocks_tab",
